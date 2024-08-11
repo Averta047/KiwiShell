@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="projects">
+      <UniqueIdentifier>{ca9a5948-ffbc-4b8e-b7fb-39b1169e4ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="projects\ShellCore">
+      <UniqueIdentifier>{68cece1b-077d-4d24-9fe9-d7880307ad48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>projects\ShellCore</Filter>
+    </ClCompile>
+    <ClCompile Include="CConsole.cpp">
+      <Filter>projects\ShellCore</Filter>
+    </ClCompile>
+    <ClCompile Include="CInput.cpp">
+      <Filter>projects\ShellCore</Filter>
+    </ClCompile>
+    <ClCompile Include="CCommand.cpp">
+      <Filter>projects\ShellCore</Filter>
+    </ClCompile>
+    <ClCompile Include="CShell.cpp">
+      <Filter>projects\ShellCore</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CConsole.h">
+      <Filter>projects\ShellCore</Filter>
+    </ClInclude>
+    <ClInclude Include="CInput.h">
+      <Filter>projects\ShellCore</Filter>
+    </ClInclude>
+    <ClInclude Include="CCommand.h">
+      <Filter>projects\ShellCore</Filter>
+    </ClInclude>
+    <ClInclude Include="CShell.h">
+      <Filter>projects\ShellCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>projects\ShellCore</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
